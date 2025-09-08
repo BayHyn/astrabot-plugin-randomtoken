@@ -1,0 +1,26 @@
+{
+  "token_length": {
+    "description": "生成的token长度",
+    "type": "int",
+    "hint": "设置token的字符长度",
+    "default": 30
+  },
+  "token_count": {
+    "description": "生成的token条数",
+    "type": "int",
+    "hint": "一次生成的token数量",
+    "default": 10
+  },
+  "enable_special_chars": {
+    "description": "是否开启特殊符号",
+    "type": "bool",
+    "hint": "启用后token将包含特殊符号",
+    "default": true
+  },
+  "enable_random_case": {
+    "description": "是否开启随机大小写",
+    "type": "bool",
+    "hint": "启用后字母将随机大小写",
+    "default": true
+  }
+}
